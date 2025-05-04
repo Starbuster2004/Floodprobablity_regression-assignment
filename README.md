@@ -1,57 +1,24 @@
 # 🌊 Flood Probability Regression Assignment
 
-This project aims to **predict flood probabilities** using **regression techniques**, with a focus on **Ridge Regression**. By analyzing a dataset composed of environmental and human activity indicators, we estimate the likelihood of flood events. The project includes data preprocessing, exploratory data analysis (EDA), model training, evaluation, and result visualization.
+This project focuses on **predicting flood probabilities** using **Ridge Regression** models.
 
 ---
 
-## 📑 Table of Contents
+## 📑 Basic Information
 
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Dependencies](#dependencies)
-- [Workflow](#workflow)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+Flooding is a critical natural disaster, and this project aims to analyze various environmental and human activity indicators to predict flood probabilities effectively.
 
 ---
 
-## 🌍 Overview
+## 📊 Results
 
-Flooding is one of the most devastating natural hazards, causing extensive damage to life and property. Accurate prediction of flood probability is vital for **disaster preparedness** and **risk mitigation**.
-
-This project uses **regression modeling**, particularly **Ridge Regression**, to predict flood probability based on various factors:
-
-- **Environmental**: Monsoon Intensity, Topography Drainage, Climate Change, etc.
-- **Human Activity**: Urbanization, Deforestation, Encroachments, etc.
+The Ridge Regression model achieved a high accuracy in predicting flood probabilities on test data. Detailed results can be found in the project files.
 
 ---
 
-## 📊 Dataset
+## 🛠️ Clone the Repository
 
-The project uses three primary files:
-
-- `train.csv`: Labeled data with features and target (`FloodProbability`).
-- `test.csv`: Unlabeled data for prediction.
-- `sample_submission.csv`: Submission format.
-
-### Key Features
-
-- `MonsoonIntensity`
-- `TopographyDrainage`
-- `ClimateChange`
-- `Urbanization`
-- `Deforestation`
-- `Encroachments`
-- **Target Variable**: `FloodProbability`
-
----
-
-## 🧰 Dependencies
-
-Install required libraries with:
+To clone this repository, use the following command:
 
 ```bash
-pip install scikit-learn pandas matplotlib seaborn
-
+git clone https://github.com/Starbuster2004/Floodprobablity_regression-assignment.git
